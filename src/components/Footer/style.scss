@@ -1,0 +1,8 @@
+.footer {
+	display: flex;
+	flex-direction: column;
+	max-width: 256px;
+	.tagline {
+		margin: 20px 0;
+	}
+}

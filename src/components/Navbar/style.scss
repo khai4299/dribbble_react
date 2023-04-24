@@ -1,0 +1,23 @@
+.containerNav {
+	li {
+		display: flex;
+		align-items: center;
+		padding: 30px 6px;
+		color: #6e6d7a;
+		font-size: 14px;
+		font-weight: 500;
+		line-height: 20px;
+		cursor: pointer;
+		&:hover {
+			color: black;
+		}
+	}
+}
+@media (min-width: 1200px) {
+	.containerNav {
+		li {
+			padding-right: 16px;
+			padding-left: 16px;
+		}
+	}
+}

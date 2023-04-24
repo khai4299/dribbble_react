@@ -1,0 +1,31 @@
+.isButton {
+	background: #ea4c89;
+	&:hover {
+		background: #f082ac;
+	}
+}
+.isBadge {
+	background: gray;
+	padding: 0 6px !important;
+	font-size: 12px;
+	&:hover {
+		background: #f082ac;
+	}
+}
+.link {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 10px 16px;
+	transition: color 200ms ease;
+	border: none;
+	border-radius: 8px;
+	outline: none;
+	text-align: center;
+	text-decoration: none;
+	gap: 5px;
+	cursor: pointer;
+	span {
+		white-space: nowrap;
+	}
+}

@@ -1,0 +1,33 @@
+.containerHead {
+	display: flex;
+	justify-content: space-between;
+	margin: 0 24px;
+	.left {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	ul {
+		list-style: none;
+		display: flex;
+		height: 100%;
+		margin: 0;
+	}
+	.right {
+		li {
+			display: flex;
+			align-items: center;
+			margin-right: 10px;
+			margin-left: 10px;
+			padding-top: 20px;
+			padding-bottom: 20px;
+			cursor: pointer;
+			&:first-child {
+				margin-left: 0;
+			}
+			&:last-child {
+				margin-right: 0;
+			}
+		}
+	}
+}

@@ -1,0 +1,17 @@
+.containerCard {
+	margin-top: 24px;
+	.listCard {
+		padding-right: 72px;
+		padding-left: 72px;
+		display: grid;
+		grid-gap: 36px;
+		grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+		list-style: none;
+	}
+	.btns {
+		margin-top: 10px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+}
